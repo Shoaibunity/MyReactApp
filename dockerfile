@@ -1,4 +1,4 @@
-# Stage 1: Build
+# Stage 1: build
 FROM node:20
 WORKDIR /app
 COPY . /app/
