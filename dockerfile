@@ -1,5 +1,5 @@
 # Stage 1: build
-FROM node:20
+FROM node:20 AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
 COPY . /app/
